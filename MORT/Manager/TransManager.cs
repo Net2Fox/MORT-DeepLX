@@ -567,8 +567,10 @@ namespace MORT
                         }
                         else if(transType == SettingManager.TransType.customApi)
                         {
-                            transResult = _customAPI.GetResult(ocrText, ref isError);
-                            transResult = transResult.Replace("\r\n ", "\n").Replace("\n", System.Environment.NewLine);
+                            string customOcrText = ocrText.Replace("\r", "\\r").Replace("\n", "\\n");
+                            transResult = _customAPI.GetResult(customOcrText, ref isError);
+                            transResult = transResult.Replace("\\r\\n", System.Environment.NewLine);
+                            transResult = transResult.Replace("\\n", System.Environment.NewLine);
                         }
                         else if(transType == SettingManager.TransType.deepl)
                         {

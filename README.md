@@ -15,6 +15,10 @@ https://youtu.be/LHTErVnsaws
 
 Sample video
 
+# MORT-DeepLX
+
+A fork of the original MORT to work correctly with the [DeepLX-MORT](https://github.com/Net2Fox/DeepLX-MORT) fork. [Instructions on how to use it.](INSTRUCTION.md)
+
 # MORT #
 
 MORT is a program that extracts dialogs from the screen in real time using OCR and outputs a translations using DB or machine translation.
