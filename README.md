@@ -17,7 +17,7 @@ Sample video
 
 # MORT-DeepLX
 
-A fork of the original MORT to work correctly with the [DeepLX-MORT](https://github.com/Net2Fox/DeepLX-MORT) fork. [Instructions on how to use it.](INSTRUCTION.md)
+A fork of the original MORT to work correctly with the original [DeepLX](https://github.com/OwO-Network/DeepLX). [Instructions on how to use it.](INSTRUCTION.md)
 
 # MORT #
 
