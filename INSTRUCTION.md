@@ -22,8 +22,8 @@ If you have a Pro subscription at DeepL, you can use it. To do this, you will ne
 2. Go to the `Additional` menu, go to `Advanced Settings`.
 3. Go to the `Translation` tab, go to the very bottom.
 4. In the `DeepLX` box, in the `dl_session` field, set your cookie value that you pulled from your browser.
-4. Click `Apply` in the `Advanced Settings` box. After, click `Apply` in the main MORT window.
-5. Done.
+5. Click `Apply` in the `Advanced Settings` box. After, click `Apply` in the main MORT window.
+6. Done.
 
 ### Old verison (1.282.1)
 1. Download the latest version of the [DeepLX-MORT](https://github.com/Net2Fox/DeepLX-MORT/releases) fork and [MORT-DeepLX](https://github.com/Net2Fox/MORT-DeepLX/releases).
